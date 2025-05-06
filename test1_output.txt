@@ -1,0 +1,13 @@
+Enter the name of the file containing the program: test1.txt
+The test1.txt opened properly.
+
+Fetch 1: AR = 0  PC = 0
+Fetch 2: DR = 0  PC = 1
+Fetch 3: IR = 0  AR = 1
+nop instruction
+Instruction execution complete: AC = 0  R = 0  Flag = 0  AR = 1  PC = 1  DR = 0
+
+Fetch 1: AR = 1  PC = 1
+Fetch 2: DR = 255  PC = 2
+Fetch 3: IR = 255  AR = 2
+Instruction execution complete: AC = 0  R = 0  Flag = 0  AR = 2  PC = 2  DR = 255

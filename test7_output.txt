@@ -1,0 +1,144 @@
+Enter the name of the file containing the program: test7.txt
+The test7.txt opened properly
+fetch 1: AR = 0  and PC = 0
+fetch 2: DR = 11 and PC = 1
+fetch 3: IR = 11 and AR = 1
+clac instruction
+clac1: AC = 0 FLAG = 1
+Instruction execution complete: AC = 0 R = 0 flag = 1 AR = 1 PC = 1 DR = 11
+
+fetch 1: AR = 1  and PC = 1
+fetch 2: DR = 3  and PC = 2
+fetch 3: IR = 3  and AR = 2
+mvac instruction
+mvac1: R = 0
+Instruction execution complete: AC = 0 R = 0 flag = 1 AR = 2 PC = 2 DR = 3
+
+fetch 1: AR = 2  and PC = 2
+fetch 2: DR = 12 and PC = 3
+fetch 3: IR = 12 and AR = 3
+and instruction
+and1: AC = 0 FLAGS = 1
+Instruction execution complete: AC = 0 R = 0 flag = 1 AR = 3 PC = 3 DR = 12
+
+fetch 1: AR = 3  and PC = 3
+fetch 2: DR = 22 and PC = 4
+fetch 3: IR = 22 and AR = 4
+mvi instruction
+mvi1: DR = 255 PC = 5 AR = 5
+mvi2: AC = 255
+Instruction execution complete: AC = 255 R = 0 flag = 1 AR = 5 PC = 5 DR = 255
+
+fetch 1: AR = 5  and PC = 5
+fetch 2: DR = 13 and PC = 6
+fetch 3: IR = 13 and AR = 6
+or instruction
+or1: AC = 255 Flags = 8
+Instruction execution complete: AC = 255 R = 0 flag = 8 AR = 6 PC = 6 DR = 13
+
+fetch 1: AR = 6  and PC = 6
+fetch 2: DR = 3  and PC = 7
+fetch 3: IR = 3  and AR = 7
+mvac instruction
+mvac1: R = 255
+Instruction execution complete: AC = 255 R = 255 flag = 8 AR = 7 PC = 7 DR = 3
+
+fetch 1: AR = 7  and PC = 7
+fetch 2: DR = 13 and PC = 8
+fetch 3: IR = 13 and AR = 8
+or instruction
+or1: AC = 255 Flags = 8
+Instruction execution complete: AC = 255 R = 255 flag = 8 AR = 8 PC = 8 DR = 13
+
+fetch 1: AR = 8  and PC = 8
+fetch 2: DR = 12 and PC = 9
+fetch 3: IR = 12 and AR = 9
+and instruction
+and1: AC = 255 FLAGS = 8
+Instruction execution complete: AC = 255 R = 255 flag = 8 AR = 9 PC = 9 DR = 12
+
+fetch 1: AR = 9  and PC = 9
+fetch 2: DR = 14 and PC = 10
+fetch 3: IR = 14 and AR = 10
+xor instruction
+xor1: AC = 0 FLAGS = 1
+Instruction execution complete: AC = 0 R = 255 flag = 1 AR = 10 PC = 10 DR = 14
+
+fetch 1: AR = 10 and PC = 10
+fetch 2: DR = 15 and PC = 11
+fetch 3: IR = 15 and AR = 11
+not instruction
+not1: AC = 255 FLAGS = 8
+Instruction execution complete: AC = 255 R = 255 flag = 8 AR = 11 PC = 11 DR = 15
+
+fetch 1: AR = 11 and PC = 11
+fetch 2: DR = 22 and PC = 12
+fetch 3: IR = 22 and AR = 12
+mvi instruction
+mvi1: DR = 128 PC = 13 AR = 13
+mvi2: AC = 128
+Instruction execution complete: AC = 128 R = 255 flag = 8 AR = 13 PC = 13 DR = 128
+
+fetch 1: AR = 13 and PC = 13
+fetch 2: DR = 15 and PC = 14
+fetch 3: IR = 15 and AR = 14
+not instruction
+not1: AC = 127 FLAGS = 0
+Instruction execution complete: AC = 127 R = 255 flag = 0 AR = 14 PC = 14 DR = 15
+
+fetch 1: AR = 14 and PC = 14
+fetch 2: DR = 22 and PC = 15
+fetch 3: IR = 22 and AR = 15
+mvi instruction
+mvi1: DR = 128 PC = 16 AR = 16
+mvi2: AC = 128
+Instruction execution complete: AC = 128 R = 255 flag = 0 AR = 16 PC = 16 DR = 128
+
+fetch 1: AR = 16 and PC = 16
+fetch 2: DR = 3  and PC = 17
+fetch 3: IR = 3  and AR = 17
+mvac instruction
+mvac1: R = 128
+Instruction execution complete: AC = 128 R = 128 flag = 0 AR = 17 PC = 17 DR = 3
+
+fetch 1: AR = 17 and PC = 17
+fetch 2: DR = 22 and PC = 18
+fetch 3: IR = 22 and AR = 18
+mvi instruction
+mvi1: DR = 127 PC = 19 AR = 19
+mvi2: AC = 127
+Instruction execution complete: AC = 127 R = 128 flag = 0 AR = 19 PC = 19 DR = 127
+
+fetch 1: AR = 19 and PC = 19
+fetch 2: DR = 14 and PC = 20
+fetch 3: IR = 14 and AR = 20
+xor instruction
+xor1: AC = 255 FLAGS = 8
+Instruction execution complete: AC = 255 R = 128 flag = 8 AR = 20 PC = 20 DR = 14
+
+fetch 1: AR = 20 and PC = 20
+fetch 2: DR = 22 and PC = 21
+fetch 3: IR = 22 and AR = 21
+mvi instruction
+mvi1: DR = 127 PC = 22 AR = 22
+mvi2: AC = 127
+Instruction execution complete: AC = 127 R = 128 flag = 8 AR = 22 PC = 22 DR = 127
+
+fetch 1: AR = 22 and PC = 22
+fetch 2: DR = 3  and PC = 23
+fetch 3: IR = 3  and AR = 23
+mvac instruction
+mvac1: R = 127
+Instruction execution complete: AC = 127 R = 127 flag = 8 AR = 23 PC = 23 DR = 3
+
+fetch 1: AR = 23 and PC = 23
+fetch 2: DR = 12 and PC = 24
+fetch 3: IR = 12 and AR = 24
+and instruction
+and1: AC = 127 FLAGS = 0
+Instruction execution complete: AC = 127 R = 127 flag = 0 AR = 24 PC = 24 DR = 12
+
+fetch 1: AR = 24 and PC = 24
+fetch 2: DR = 255 and PC = 25
+fetch 3: IR = 255 and AR = 25
+Instruction execution complete: AC = 127 R = 127 flag = 0 AR = 25 PC = 25 DR = 255

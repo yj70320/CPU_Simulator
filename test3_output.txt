@@ -1,0 +1,48 @@
+Enter the name of the file containing the program: test3.txt
+The test3.txt opened properly
+fetch 1: AR = 0 and PC = 0
+fetch 2: DR = 11 and PC = 1
+fetch 3: IR = 11 and AR = 1
+clac instruction
+clac1 AC = 0 FLAG = 1
+Instruction execution complete: AC = 0 R = 0 flag = 1 AR = 1 PC = 1 DR = 11
+
+fetch 1: AR = 1 and PC = 1
+fetch 2: DR = 3 and PC = 2
+fetch 3: IR = 3 and AR = 2
+mvac instruction
+mvac1 R = 0
+Instruction execution complete: AC = 0 R = 0 flag = 1 AR = 2 PC = 2 DR = 3
+
+fetch 1: AR = 2 and PC = 2
+fetch 2: DR = 10 and PC = 3
+fetch 3: IR = 10 and AR = 3
+inac instruction
+inac1 AC = 1 FLAG = 0
+Instruction execution complete: AC = 1 R = 0 flag = 0 AR = 3 PC = 3 DR = 10
+
+fetch 1: AR = 3 and PC = 3
+fetch 2: DR = 3 and PC = 4
+fetch 3: IR = 3 and AR = 4
+mvac instruction
+mvac1 R = 1
+Instruction execution complete: AC = 1 R = 1 flag = 0 AR = 4 PC = 4 DR = 3
+
+fetch 1: AR = 4 and PC = 4
+fetch 2: DR = 10 and PC = 5
+fetch 3: IR = 10 and AR = 5
+inac instruction
+inac1 AC = 2 FLAG = 0
+Instruction execution complete: AC = 2 R = 1 flag = 0 AR = 5 PC = 5 DR = 10
+
+fetch 1: AR = 5 and PC = 5
+fetch 2: DR = 4 and PC = 6
+fetch 3: IR = 4 and AR = 6
+movr instruction
+movr1 AC = 1
+Instruction execution complete: AC = 1 R = 1 flag = 0 AR = 6 PC = 6 DR = 4
+
+fetch 1: AR = 6 and PC = 6
+fetch 2: DR = 255 and PC = 7
+fetch 3: IR = 255 and AR = 7
+Instruction execution complete: AC = 1 R = 1 flag = 0 AR = 7 PC = 7 DR = 255
